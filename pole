@@ -1,0 +1,56 @@
+using System;
+using System.IO;
+
+namespace pole
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            int[] pole1 = { 1, 2, 3, 4, 5 };
+
+            int[] pole2 = { 6, 7, 8, 9, 10 };
+            
+            int[] pole3 = { 11, 12, 13, 14, 15 };
+            Console.WriteLine("Hodnota X na indexu Y v prvním poli je:");
+            Console.WriteLine("1");
+            Console.WriteLine("Hodnota X na indexu Y v prvním poli je:");
+            Console.WriteLine("2");
+            Console.WriteLine("Hodnota X na indexu Y v prvním poli je:");
+            Console.WriteLine("3");
+            Console.WriteLine("Hodnota X na indexu Y v prvním poli je:");
+            Console.WriteLine("4");
+            Console.WriteLine("Hodnota X na indexu Y v prvním poli je:");
+            Console.WriteLine("5");
+
+            int a = int.Parse(Console.ReadLine());
+            int scitani = 6 + 7 + 8 + 9 + 10;
+
+            int b = 11;
+            int c = 12;
+            int d = 13;
+            int e = 14;
+            int f = 15;
+            int pom;
+
+            pom = a;
+            a = b;
+            b = pom;
+            pom = b;
+            b = c;
+            c = pom;
+            pom = c;
+            c = d;
+            d = pom;
+            pom = d;
+            d = e;
+            e = pom;
+            pom = e;
+            e = a;
+            a = pom;
+
+        }
+    }
+}
